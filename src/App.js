@@ -11,7 +11,7 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-//react Sinnpit: rafce
+//react Snippet: rafce
 //stands for React Arrow Function Expport Component
 const App = () => {
   return (

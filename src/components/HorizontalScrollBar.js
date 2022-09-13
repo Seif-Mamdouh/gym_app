@@ -1,12 +1,13 @@
 import React from 'react';
-import { Box } from '@mui/material'
+import { Box } from '@mui/material';
+import '../styles/components/HorizontalScroll.css';
 
 import BodyPart from './BodyPart';
 
 const HorizontalScrollBar = ({ data, bodyPart, setBodyPart }) => {
     return (
-        <div>
-            {data.map((item) => (
+        <div className='Container'>
+            {data && data.map((item) => (
                 <Box
                     key={item.id || item}
                     itemId={item.id || item}
